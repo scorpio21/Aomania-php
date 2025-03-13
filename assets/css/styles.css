@@ -1,0 +1,253 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Botones */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Colores de botones */
+.btn.vida { background: #e74c3c; }
+.btn.mana { background: #3498db; }
+.btn.stats { background: #2ecc71; }
+.btn.admin { background: #9b59b6; }
+.btn.salir { background: #95a5a6; }
+.btn.domar { background: #8e44ad; }
+.btn.modificadores { background: #27ae60;}
+
+/* Formularios */
+form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+input, select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background: #333;
+    border: 1px solid #444;
+    color: #fff;
+    border-radius: 5px;
+}
+
+input:focus, select:focus {
+    border-color: #9b59b6;
+    outline: none;
+}
+
+/* Barras de Progreso */
+.barra-progreso {
+    height: 30px;
+    background: #333;
+    border-radius: 5px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.barra-progreso .relleno {
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.5s;
+}
+
+/* Estilos específicos para Vidas */
+#vidas .relleno { background: linear-gradient(to right, #e74c3c, #f1c40f); }
+
+/* Estilos específicos para Maná */
+#mana .relleno { background: linear-gradient(to right, #3498db, #9b59b6); }
+
+/* Panel de Administración */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #444;
+    text-align: left;
+}
+
+th {
+    background: #2c3e50;
+}
+
+/* Errores y Alertas */
+.error {
+    background: #e74c3c;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.exito {
+    background: #2ecc71;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Estilos para Domar */
+.form-domar {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.form-domar .campo {
+    margin-bottom: 15px;
+}
+
+.form-domar label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.form-domar select,
+.form-domar input {
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    border: 1px solid #444;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-domar select:hover,
+.form-domar input:hover {
+    border-color: #666;
+}
+
+.form-domar select:focus,
+.form-domar input:focus {
+    border-color: #9b59b6;
+    outline: none;
+}
+
+.resultados {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.resultados h3 {
+    margin-top: 0;
+    color: #9b59b6;
+}
+
+.resultados p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.skill {
+    background: #6a1b9a;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.skill span {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Estilos para el menú principal */
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu a {
+    text-align: center;
+}
+
+.login-required {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.login-required p {
+    margin-bottom: 20px;
+}
+/* Modificadores de Clase */
+.resultados-modificadores {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.resultados-modificadores h3 {
+    color: #9b59b6;
+    border-bottom: 2px solid #8e44ad;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.lista-modificadores {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-modificadores li {
+    padding: 8px 0;
+    border-bottom: 1px solid #34495e;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-modificadores li:last-child {
+    border-bottom: none;
+}
+
+.etiqueta {
+    color: #bdc3c7;
+}
+
+.valor {
+    color: #2ecc71;
+    font-weight: bold;
+}

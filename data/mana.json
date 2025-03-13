@@ -1,0 +1,17 @@
+[
+    {
+        "fecha": "2025-03-13 02:19:50",
+        "usuario": "scorpio",
+        "clase": "Brujo",
+        "resultados": {
+            "min": 19,
+            "med": 26.75,
+            "max": 34.5,
+            "incrementos": {
+                "min": 4,
+                "max": 6,
+                "med": 5
+            }
+        }
+    }
+]

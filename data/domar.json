@@ -1,0 +1,62 @@
+[
+    {
+        "fecha": "2025-03-13 02:27:52",
+        "usuario": "scorpio",
+        "resultados": {
+            "clase": "Clerigo",
+            "carisma": 17,
+            "criatura": "Grifo",
+            "skill": 102
+        }
+    },
+    {
+        "fecha": "2025-03-13 02:49:38",
+        "usuario": "scorpio",
+        "resultados": {
+            "clase": "Mago",
+            "carisma": 17,
+            "criatura": "Drag\u00f3n",
+            "skill": 114
+        }
+    },
+    {
+        "fecha": "2025-03-13 02:49:57",
+        "usuario": "scorpio",
+        "resultados": {
+            "clase": "Guerrero",
+            "carisma": 20,
+            "criatura": "Drag\u00f3n",
+            "skill": 120
+        }
+    },
+    {
+        "fecha": "2025-03-13 02:50:08",
+        "usuario": "scorpio",
+        "resultados": {
+            "clase": "Guerrero",
+            "carisma": 21,
+            "criatura": "Drag\u00f3n",
+            "skill": 122
+        }
+    },
+    {
+        "fecha": "2025-03-13 02:50:13",
+        "usuario": "scorpio",
+        "resultados": {
+            "clase": "Guerrero",
+            "carisma": 17,
+            "criatura": "Drag\u00f3n",
+            "skill": 116
+        }
+    },
+    {
+        "fecha": "2025-03-13 02:50:20",
+        "usuario": "scorpio",
+        "resultados": {
+            "clase": "Guerrero",
+            "carisma": 17,
+            "criatura": "F\u00e9nix",
+            "skill": 121
+        }
+    }
+]

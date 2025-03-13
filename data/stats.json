@@ -1,0 +1,18 @@
+[
+    {
+        "usuario": "scorpio",
+        "nombre": "Carmelo",
+        "fuerza": 25,
+        "agilidad": 13,
+        "inteligencia": 23,
+        "fecha": "2025-03-13 02:20:16"
+    },
+    {
+        "usuario": "scorpio",
+        "nombre": "jose",
+        "fuerza": 12,
+        "agilidad": 45,
+        "inteligencia": 78,
+        "fecha": "2025-03-13 02:51:48"
+    }
+]

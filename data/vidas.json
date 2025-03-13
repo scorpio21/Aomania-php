@@ -1,0 +1,17 @@
+[
+    {
+        "fecha": "2025-03-13 02:19:42",
+        "usuario": "scorpio",
+        "clase": "Guerrero",
+        "resultados": {
+            "min": 60,
+            "med": 73.33333333333334,
+            "max": 86.66666666666667,
+            "incrementos": {
+                "min": 4,
+                "max": 6,
+                "med": 5
+            }
+        }
+    }
+]
